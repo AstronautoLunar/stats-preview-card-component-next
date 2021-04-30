@@ -11,6 +11,7 @@ export default function ImageMain() {
                 width={483}
                 height={400}
                 alt="employees"
+                layout="fixed"
             />
         </div>
     );

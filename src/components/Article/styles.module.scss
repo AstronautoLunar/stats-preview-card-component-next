@@ -20,9 +20,11 @@ div#container, section#articleSection, article#content {
 
 div#container {
     
-    section#articleSection {
+    section#descriptionSection {
 
         article#content {
+
+            
 
             h1#articleTitle {
                 color: hsl(0, 0%, 100%);
@@ -38,6 +40,14 @@ div#container {
                 margin: 15px 80px;
             }
             
+            @media screen and (max-width: 1035px) {
+                h1#articleTitle, p#articleText {
+                    margin: 10px 20px;
+
+                    text-align: center;
+                }
+            }
+
             p#articleText {
                 color: hsla(0, 0%, 100%, 0.6);
                 font-family: 'Lexend Deca', sans-serif;
@@ -45,30 +55,53 @@ div#container {
                 line-height: 25px;
             }
         }
-    }
-    
-    
-}
 
-article#listData {
-    align-items: center;
-    
-    div.data {
-        width: 8rem;
-
-        flex-direction: column;
-        
-        align-items: flex-start;
-    
-        h1.numberData {
-            color: hsla(0, 0%, 100%, 0.75);
-            font-family: Inter, sans-serif;
-            text-align: left;
-        }
-        
-        span.titleData {
-            color: hsla(0, 0%, 100%, 0.6);
-            font-family: 'Lexend Deca', sans-serif;
+        @media screen and (max-width: 1035px) {
+            margin-top: 50px;
         }
     }
+
+    section#dataSection {
+
+        article#listData {
+            align-items: center;
+            
+            div.data {
+                width: 8rem;
+        
+                flex-direction: column;
+                
+                align-items: flex-start;
+                
+                h1.numberData {
+                    color: hsla(0, 0%, 100%, 0.75);
+                    font-family: Inter, sans-serif;
+                    text-align: left;
+                }
+                
+                span.titleData {
+                    color: hsla(0, 0%, 100%, 0.6);
+                    font-family: 'Lexend Deca', sans-serif;
+                }
+            }
+
+            @media screen and (max-width: 1035px) {
+                div.data {
+                    margin: 15px 0;
+
+                    align-items: center;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1035px) {
+            article#listData {
+                flex-direction: column;
+            }
+        }
+    }
 }
+
+// @media screen and (max-width: 1035px) {
+
+// }

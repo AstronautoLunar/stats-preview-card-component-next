@@ -1,18 +1,16 @@
 import styles from './styles.module.scss';
 
-import Image from 'next/image';
-
 export default function ImageMain() {
     return (
         <div id={styles.imageBackground}>
-            <Image 
+            <img 
                 className={styles.image}
                 src="/image-header-desktop.jpg"
-                width={483}
-                height={400}
                 alt="employees"
-                layout="fixed"
             />
         </div>
     );
 }
+
+// mediaQuerieList.matches ? 320 : 483
+// mediaQuerieList.matches ? 265 : 400

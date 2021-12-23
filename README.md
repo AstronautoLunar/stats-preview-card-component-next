@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Stats Preview Card Component</h1>
 
-## Getting Started
+<p align="center">Solução da plataforma Front End Mentor</p>
 
-First, run the development server:
+* [Sobre](#Sobre)
+* [Pre Requisitos](#Pre-requisitos)
+* [Tecnologias](#tecnologias)
 
-```bash
-npm run dev
-# or
+<h4 align="center">
+  ✅ Concluido ✅
+</h4>
+
+## Sobre
+Mais um dos desafios concluidos, É bem simples e utilizei as tecnologias mais modernas mais me aperfeiçoar nelas
+
+## Pre Requisitos
+Você precisa apenas de um editor de código e obviamente de um navegador, recomendo usar o google chrome
+
+Precisa ter instalado o Node.js através desse link:
+
+* [Node.js](https://nodejs.org/en/)
+
+E os gerenciadores de pacote:
+
+* [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+* [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+## Como usar
+Copie e cole no seu GIT
+```
+git clone https://github.com/Pyedrown/stats-preview-card-component-main-next.git
+```
+
+Em seguida use
+```
+cd stats-preview-card-component
+```
+
+abra o projeto através do terminal e digite e execute o seguinte comando
+```
+npm i
+
+ou
+
+npm install
+```
+
+Com esses comandos, vocês instalará as dependências do projeto, somente assim será possível executar o projeto
+
+Agora para executar o projeto digite o seguinte comando e execute:
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org)
+- [Typescript](https://www.typescriptlang.org)
+- [SASS](https://sass-lang.com)

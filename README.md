@@ -1,5 +1,12 @@
 <h1 align="center">Stats Preview Card Component</h1>
 
+<div align="center">
+  <img
+    src="https://github.com/Pyedrown/stats-preview-card-component-main-next/blob/main/presentation.PNG"
+    alt="presentation image"
+  />
+</div>
+
 <p align="center">Solução da plataforma Front End Mentor</p>
 
 * [Sobre](#Sobre)
